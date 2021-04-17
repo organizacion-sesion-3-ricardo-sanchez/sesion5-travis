@@ -6,11 +6,6 @@ class Calculator
     {
         return $a + $b;
     }
-    
-    public function substract($a, $b): float
-    {
-        return $a - $b;
-    }
 
     public function multiply($a, $b): float
     {
