@@ -33,5 +33,11 @@ class CalculatorTest extends TestCase
         $result = $this->calculator->division(10, 2);
         $this->assertEquals(5, $result);
     }
+    
+    public function testSubstract(): void
+    {
+        $result = $this->calculator->substract(7, 2);
+        $this->assertEquals(5, $result);
+    }
  
 }
