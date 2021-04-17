@@ -22,7 +22,7 @@ class Calculator
         return $a / $b;
     }
 
-    public function parImpar($a): float
+    public function parImpar($a): bool
     {
 	if ($a%2==0){
            return true;
